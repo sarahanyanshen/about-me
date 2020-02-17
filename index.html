@@ -1,59 +1,102 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Hanyan SHEN | Mon site web</title>
-    <link rel="stylesheet" href="stylesheet.css" />
+    <meta charset="utf-8">
+    <title>Hanyan SHEN</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lacquer|Londrina+Shadow|Permanent+Marker|Quicksand&display=swap"
+        rel="stylesheet">
+    <script src="script.js"></script>
 </head>
-<style></style>
 
 <body>
-    <!-- header de la page -->
     <header>
-        <h1 class="title">Salut! Hello! 你好！</h1>
-            <h2>Je suis Hanyan SHEN.</h2>
-        <h2>Bienvenue sur mon site web. Je l'ai fait toute seule, ouais ouais :)</h2>
+        <a href="">
+            <img src="images/Hanyanlogo.svg" alt="Hanyan's logo" width="200px">
+        </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#aboutme">About me</a>
+                </li>
+                <li>
+                    <a href="#myproject">My project</a>
+                </li>
+                <li>
+                    <a href="#myhobby">My hobby</a>
+                </li>
+                <li>
+                    <a href="#contactme">Contact me</a>
+                </li>
+            </ul>
+        </nav>
+        <h1>Salut! Hi! 你好！</h1>
     </header>
+    <hr>
 
-    <a href="#about">About Me</a>
-    <a href="#loves">Loves</a>
-    <a href="#contact">Contact</a>
+    <section id="aboutme">
+        <h2>About Me</h2>
+        <p>Je m'appelle Hanyan SHEN, je viens de la Chine.</p>
+        <p>Je fais des études d'UX-UI à Paris</p>
+        <img id="hanyan" src="images/hanyan.png" alt="Hanyan SHEN" width="300px">
+        <p>C'est mon chien Benny</p>
+        <img src="images/benny1.JPG" alt="Benny 1" width="300px">
+        <img src="images/benny2.png" alt="Benny 2" width="300px">
+        <img src="images/benny3.jpg" alt="Benny 3" width="300px">
 
-    <section>
-        <div class="box">
-            Benny my dog
+    </section>
+    <hr>
+
+    <section id="myproject">
+        <h2>My project</h2>
+        <h3>MVP</h3>
+        <p>Une application pour retrouver les amis perdus au festival</p>
+        <div>
+            <img src="images/maquette1.png" alt="Maquette 1" width="300px">
+            <img src="images/maquette2.png" alt="Maquette 2" width="300px">
+            <img src="images/maquette3.png" alt="Maquette 3" width="300px">
         </div>
+
+        <div>
+            <img src="images/persona1.png" alt="persona 1" width="400px">
+            <img src="images/persona2.png" alt="persona 2" width="505px">
+        </div>
+        <h3>Persona</h3>
+        <p>Un persona pour une application de voyage</p>
+    </section>
+    <hr>
+
+    <section id="myhobby">
+        <h2>My hobby</h2>
+        <h3>DIY miniature</h3>
+        <div>
+            <img src="images/mini1.JPG" alt="miniature 1" width="300px">
+            <img src="images/mini2.JPG" alt="miniature 2" width="300px">
+            <img src="images/mini3.JPG" alt="miniature 3" width="300px">
+            <img src="images/mini4.JPG" alt="miniature 4" width="300px">
+            <img src="images/mini5.JPG" alt="miniature 5" width="300px">
+        </div>
+
     </section>
 
-    <!-- section "A propos de moi" -->
-    <div id="global" class="site global">
-        <section id="about">
-            <img class="little-image" src="images/hanyanshen.JPG" alt="Hanyan SHEN" width="200px">
+    <a href="#">
+        <img src="images/top.svg" alt="back to the top" width="100px">
+    </a>
+    <hr>
 
-            <h1>À propos de moi</h1>
 
-            <p>Je viens de la Chine, je suis venue en France pour les études d'UX l'année dernière.</p>
 
-            <p>Je suis contente d'avoir fait ce choix, je vais faire de mon mieux pour bien apprendre l'UX.</p>
-    </div>
-    </section>
-
-    <!-- Section "Mes choses préférées" -->
-    <section id="loves">
-        <h1>J'adore</h1>
-        <p>J'adore toutes les choses miniatures, je fais souvent des maisons miniatures DIY.</p>
-        <img src="images/diy1.JPG" alt="en cours de DIY" width="250px">
-        <img src="images/diy2.JPG" alt="en cours de DIY" width="237px">
-        <img src="images/diymaison.JPG" alt="Maison miniatures DIY" width="250px">
-    </section>
-
-    <!-- footer & contact info -->
-    <footer id="contact">
-        <h1>Contacte moi</h1>
-        <p>Envoyez moi un email à <a href="mailto:shen.sara@icloud.com">shen.sara@icloud.com</a> ou par <a
-                href="http://linkedin.com" target="_blank">LinkedIn</a>!</p>
-        <h3> <a href="tel:+33628564867" target="_blank"> Call me </a></h3>
+    <footer id="contactme">
+        <h2>Contact me</h2>
+        <ul>
+            <li>
+                <a href="mailto:shy.sarashen@gmail.com">Send me an Email</a>
+            </li>
+            <li>
+                <a href="http://www.linkedin.com/in/hanyan-shen" target="_blank">Go to my Linkedin</a>
+            </li>
+        </ul>
     </footer>
 </body>
 

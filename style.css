@@ -1,0 +1,35 @@
+body{
+    background-color:#eedbd4;
+}
+
+ul{
+    font-family:lacquer;
+}
+
+h1{
+    color:#c44d6b;
+    font-family:'Permanent Marker', cursive;
+}
+
+h2{
+    color:#e17977;
+    font-family:'Londrina Shadow', cursive;
+}
+
+h3{
+    color:#ce6f87;
+    font-family:'Permanent Marker', cursive;
+}
+
+p{
+    color: rgb(112, 46, 39);
+    font-family:'Quicksand', sans-serif;
+}
+
+#hanyan {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: seashell;
+    border-width: 8px;
+}
+
