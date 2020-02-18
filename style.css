@@ -4,26 +4,37 @@ body{
 
 ul{
     font-family:lacquer;
+    font-size: 30px;
+    list-style:none;
 }
 
 h1{
     color:#c44d6b;
     font-family:'Permanent Marker', cursive;
+    font-size: 90px;
 }
 
 h2{
     color:#e17977;
     font-family:'Londrina Shadow', cursive;
+    font-size: 60px;
 }
 
 h3{
-    color:#ce6f87;
+    color:#d69090;
     font-family:'Permanent Marker', cursive;
+    font-size: 40px;
 }
 
 p{
-    color: rgb(112, 46, 39);
+    color: rgb(131, 63, 55);
     font-family:'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+span{
+    font-family:'Permanent Marker', cursive;
+
 }
 
 #hanyan {
@@ -33,3 +44,19 @@ p{
     border-width: 8px;
 }
 
+#benny {
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+a:link {
+    color: rgb(197, 117, 117);
+}
+a:visited {
+    color: rgb(153, 150, 153);
+}
+a:hover {
+    color: rgb(250, 141, 39);
+}
+a:active {
+    color: yellowgreen;
+}
