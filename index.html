@@ -13,62 +13,78 @@
 <body>
     <header>
         <a href="">
-            <img src="images/Hanyanlogo.svg" alt="Hanyan's logo" width="200px">
+            <img id="logo" src="images/Hanyanlogo.svg" alt="Hanyan's logo" width="200px">
         </a>
         <nav>
-            <ul>
-                <li>
+            <ul id="navigator">
+                <li class="nav">
                     <a href="#aboutme">About me</a>
                 </li>
-                <li>
-                    <a href="#myproject">My project</a>
+                <li class="nav">
+                    <a href="#myproject">My projects</a>
                 </li>
-                <li>
+                <li class="nav">
                     <a href="#myhobby">My hobby</a>
                 </li>
-                <li>
+                <li class="nav">
                     <a href="#contactme">Contact me</a>
                 </li>
             </ul>
         </nav>
         <h1>Salut! Hi! 你好！</h1>
     </header>
-    <hr>
 
-    <section id="aboutme">
+    <div class="line"></div>
+
+    <section>
         <h2>About Me</h2>
-        <p>Je m'appelle <span>Hanyan SHEN</span> , je viens de la Chine. </p>
-        <p>Je fais des études d'UX-UI à Paris.</p>
+        <div id="presentation">
+            <p>Je m'appelle <span>Hanyan SHEN</span> , je viens de la Chine.</p>
+            <p>Je fais des études d'UX-UI à Paris.</p>
+        </div>
         <img id="hanyan" src="images/hanyan.png" alt="Hanyan SHEN" width="300px">
-        <p>C'est mon chien <span>Benny</span>. Il est un chien confiant, parfois trop confiante.</p>
-        <div id="benny">
-            <img title="Il est trop mignon!" src="images/benny1.JPG" alt="Benny 1" width="300px">
-            <img title="là,il est faché." src="images/benny2.png" alt="Benny 2" width="300px">
-            <img title="il m'observe." src="images/benny3.jpg" alt="Benny 3" width="300px">
+        <div>
+
+            <div id="benny">
+                <img title="Il est trop mignon!" src="images/benny1.JPG" alt="Benny 1" width="300px">
+                <img title="là,il est faché." src="images/benny2.png" alt="Benny 2" width="300px">
+                <img title="il m'observe." src="images/benny3.jpg" alt="Benny 3" width="300px">
+            </div>
+            <div id="presbenny">
+                <p>C'est mon chien <span>Benny</span>. Il est un chien confiant. <br>Parfois un peu trop confiant.</p>
+            </div>
         </div>
 
     </section>
-    <hr>
+
+    <div class="line"></div>
 
     <section id="myproject">
         <h2>My project</h2>
-        <h3>MVP</h3>
-        <p>Une application pour retrouver les amis perdus au festival</p>
+        <div id="presmvp">
+            <h3>MVP</h3>
+            <p>Une application pour retrouver les amis perdus au festival</p>
+        </div>
+
         <div id="maquette">
             <img title="chat with Ann" src="images/maquette1.png" alt="Maquette 1" width="300px">
             <img title="find Ann by GPS" src="images/maquette2.png" alt="Maquette 2" width="300px">
             <img title="objets perdus" src="images/maquette3.png" alt="Maquette 3" width="300px">
         </div>
 
+
         <div id="persona">
             <img title="persona pour une appli de voyage" src="images/persona1.png" alt="persona 1" width="400px">
             <img title="persona pour une appli de santé destinée aux séniors" src="images/persona2.png" alt="persona 2"
                 width="505px">
         </div>
-        <h3>Persona</h3>
-        <p>Un persona pour une application de voyage</p>
+        <div id="prespersona">
+            <h3>Persona</h3>
+            <p>Un persona pour une application de voyage</p>
+        </div>
     </section>
-    <hr>
+
+    <div class="line"></div>
 
     <section id="myhobby">
         <h2>My hobby</h2>
@@ -80,17 +96,18 @@
             <img tile="piano" src="images/mini4.JPG" alt="miniature 4" width="300px">
             <img title="terrasse" src="images/mini5.JPG" alt="miniature 5" width="300px">
         </div>
-
     </section>
 
-    <a href="#">
-        <img src="images/top.svg" alt="back to the top" width="100px">
-    </a>
-    <hr>
+    <div id="top">
+        <a href="#">
+            <img src="images/top.svg" alt="back to the top" width="100px">
+        </a>
+    </div>
+
+    <div class="line"></div>
 
 
-
-    <footer id="contactme">
+    <footer>
         <h2>Contact me</h2>
         <ul>
             <li>
