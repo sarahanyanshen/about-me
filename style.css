@@ -2,16 +2,25 @@ body{
     background-color:#eedbd4;
 }
 
+nav {
+    text-align: right;
+}
+
 ul{
     font-family:lacquer;
-    font-size: 30px;
+    font-size: 25px;
     list-style:none;
+}
+
+footer {
+    text-align: center;
 }
 
 h1{
     color:#c44d6b;
     font-family:'Permanent Marker', cursive;
     font-size: 90px;
+    text-align: center;
 }
 
 h2{
@@ -37,17 +46,7 @@ span{
 
 }
 
-#hanyan {
-    border-radius: 50%;
-    border-style: solid;
-    border-color: seashell;
-    border-width: 8px;
-}
 
-#benny {
-    border-style: solid;
-    border-color: rgb(255, 255, 255);
-}
 a:link {
     color: rgb(197, 117, 117);
 }
@@ -59,4 +58,76 @@ a:hover {
 }
 a:active {
     color: yellowgreen;
+}
+
+
+#hanyan {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: seashell;
+    border-width: 8px;
+    margin-left: 650px;
+}
+
+#navigator {
+    margin-top: -150px;
+}
+
+#presentation {
+    margin-bottom: -200px;
+    margin-top: 100px;
+    margin-left: 150px;
+    font-size: 30px;
+}
+
+#presbenny {
+    float: right;
+    margin-top: -200px;
+    margin-left: 900px;
+}
+
+#benny {
+    margin-right: auto;
+    margin-top: 50px;
+    border: 3px solid white;
+    width: 970px;
+    background-color: white;
+}
+
+#top {
+    float: right;
+}
+
+.line{
+    width: 1200px;
+    height: 1px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#maquette{
+    width: 910px;
+    background-color: whitesmoke;
+    border: 3px solid whitesmoke;
+    border-radius: 3%;
+    padding-right: 3px;
+    padding-bottom: 70px;
+    float: right;
+    margin-top: -200px;
+}
+
+#presmvp{
+    margin-top:100px;
+}
+
+#prespersona{
+    float: right;
+    margin-top: -200px;
+}
+
+#persona{
+    margin-top: 550px;
+    padding-left: 50px;
 }
